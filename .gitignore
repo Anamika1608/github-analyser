@@ -1,0 +1,22 @@
+# Generated data
+data/raw/**
+data/normalized/**
+data/parquet/**
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/normalized/.gitkeep
+!data/parquet/.gitkeep
+
+# Haskell build output
+dist-newstyle/
+.ghc.environment.*
+cabal.project.local
+
+# Markdown docs
+*.md
+
+# Editor / OS files
+.DS_Store
+
+.env
