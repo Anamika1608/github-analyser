@@ -14,11 +14,13 @@ module GitHubAnalyser.Types (
 import Data.Aeson
 import Data.Int (Int64)
 import qualified Data.List as L
+import Data.Maybe (isJust)
 import Data.Ord (Down (..), comparing)
 import qualified Data.Text as T
 import Data.Time.Clock (UTCTime)
 import GHC.Generics (Generic)
 import GitHubAnalyser.Config (AppConfig (..))
+import GitHubAnalyser.Paths (rawEventsPath, rawReposPath)
 
 data Repo = Repo
     { repoId :: !Int64
@@ -113,6 +115,8 @@ instance ToJSON CommitSnapshot
 data IngestManifest = IngestManifest
     { manifestUser :: !T.Text
     , manifestCommitSince :: !UTCTime
+    , manifestReposPath :: !FilePath
+    , manifestEventsPath :: !FilePath
     , reposCount :: !Int
     , eventsCount :: !Int
     , topReposUsed :: ![T.Text]
@@ -125,6 +129,7 @@ instance ToJSON IngestManifest
 topReposForCommitFetch :: AppConfig -> [Repo] -> [Repo]
 topReposForCommitFetch cfg =
     take (topRepoCount cfg)
+        . filter (isJust . pushedAt)
         . L.sortBy (comparing (Down . pushedAt))
 
 buildManifest :: AppConfig -> [Repo] -> [Event] -> [CommitSnapshot] -> IngestManifest
@@ -132,6 +137,8 @@ buildManifest cfg repos events snapshots =
     IngestManifest
         { manifestUser = targetUser cfg
         , manifestCommitSince = commitSince cfg
+        , manifestReposPath = rawReposPath cfg
+        , manifestEventsPath = rawEventsPath cfg
         , reposCount = length repos
         , eventsCount = length events
         , topReposUsed = map commitSnapshotRepoName snapshots

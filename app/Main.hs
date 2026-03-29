@@ -45,7 +45,9 @@ runFetchEvents cfg = do
 runFetchCommits :: AppConfig -> IO [CommitSnapshot]
 runFetchCommits cfg = do
     repos <- fetchRepos cfg
-    snapshots <- fetchCommitSnapshots cfg (topReposForCommitFetch cfg repos)
+    let selectedRepos = topReposForCommitFetch cfg repos
+    putStrLn ("Selected repos for commit fetch: " ++ show (length selectedRepos))
+    snapshots <- fetchCommitSnapshots cfg selectedRepos
     putStrLn ("Fetched commit snapshots: " ++ show (length snapshots))
     pure snapshots
 
@@ -53,7 +55,9 @@ runFetchAll :: AppConfig -> IO ()
 runFetchAll cfg = do
     repos <- runFetchRepos cfg
     events <- runFetchEvents cfg
-    commitSnapshots <- fetchCommitSnapshots cfg (topReposForCommitFetch cfg repos)
+    let selectedRepos = topReposForCommitFetch cfg repos
+    putStrLn ("Selected repos for commit fetch: " ++ show (length selectedRepos))
+    commitSnapshots <- fetchCommitSnapshots cfg selectedRepos
     let manifest = buildManifest cfg repos events commitSnapshots
     writeManifest cfg manifest
     putStrLn ("Fetched commit snapshots: " ++ show (length commitSnapshots))

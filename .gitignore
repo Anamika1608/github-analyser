@@ -1,7 +1,3 @@
-# Generated data
-data/raw/**
-data/normalized/**
-data/parquet/**
 
 # Keep directory placeholders
 !data/raw/.gitkeep
@@ -20,3 +16,5 @@ cabal.project.local
 .DS_Store
 
 .env
+
+/scripts/

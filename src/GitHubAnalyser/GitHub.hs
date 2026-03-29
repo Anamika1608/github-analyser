@@ -12,6 +12,7 @@ module GitHubAnalyser.GitHub (
 
 import Control.Monad (forM, unless)
 import Data.Aeson
+import Data.Aeson.Types (Parser)
 import qualified Data.ByteString.Char8 as BS8
 import qualified Data.ByteString.Lazy as LBS
 import qualified Data.Text as T
@@ -21,7 +22,6 @@ import GitHubAnalyser.Config (AppConfig (..))
 import GitHubAnalyser.Paths
 import GitHubAnalyser.Types
 import Network.HTTP.Simple
-import System.IO.Error (ioError, userError)
 
 data PagedCollection a = PagedCollection
     { rawItems :: [Value]
@@ -114,13 +114,15 @@ fetchEventsCollection cfg =
 
 fetchCommitCollection :: AppConfig -> Repo -> IO (PagedCollection Commit)
 fetchCommitCollection cfg repo = do
+    let (repoOwner, repoSlug) = repoCoordinates cfg repo
     collection <-
-        fetchPagedCollection
+        fetchPagedCollectionWith
+            [409]
             cfg
             ( "https://api.github.com/repos/"
-                ++ T.unpack (targetUser cfg)
+                ++ T.unpack repoOwner
                 ++ "/"
-                ++ T.unpack (repoName repo)
+                ++ T.unpack repoSlug
                 ++ "/commits"
             )
             [ ("author", T.unpack (targetUser cfg))
@@ -139,31 +141,43 @@ fetchPagedCollection ::
     String ->
     [(String, String)] ->
     IO (PagedCollection a)
-fetchPagedCollection cfg url extraParams = go 1 [] []
+fetchPagedCollection = fetchPagedCollectionWith []
+
+fetchPagedCollectionWith ::
+    FromJSON a =>
+    [Int] ->
+    AppConfig ->
+    String ->
+    [(String, String)] ->
+    IO (PagedCollection a)
+fetchPagedCollectionWith emptyStatuses cfg url extraParams = go (1 :: Int) [] []
   where
     go page rawPages typedPages = do
         req <- buildRequest cfg url (pageParams page)
         response <- httpBS req
         let status = getResponseStatusCode response
-        unless (status == 200) $
-            ioError . userError $
-                "GitHub API returned status "
-                    ++ show status
-                    ++ " for "
-                    ++ url
-                    ++ " with body: "
-                    ++ BS8.unpack (getResponseBody response)
+        if status `elem` emptyStatuses
+            then pure emptyPagedCollection
+            else do
+                unless (status == 200) $
+                    ioError . userError $
+                        "GitHub API returned status "
+                            ++ show status
+                            ++ " for "
+                            ++ url
+                            ++ " with body: "
+                            ++ BS8.unpack (getResponseBody response)
 
-        let body = getResponseBody response
-        rawPage <- decodeBody body
-        typedPage <- decodeBody body
-        if null typedPage
-            then pure
-                PagedCollection
-                    { rawItems = concat (reverse rawPages)
-                    , typedItems = concat (reverse typedPages)
-                    }
-            else go (page + 1) (rawPage : rawPages) (typedPage : typedPages)
+                let body = getResponseBody response
+                rawPage <- decodeBody body
+                typedPage <- decodeBody body
+                if null typedPage
+                    then pure
+                        PagedCollection
+                            { rawItems = concat (reverse rawPages)
+                            , typedItems = concat (reverse typedPages)
+                            }
+                    else go (page + 1) (rawPage : rawPages) (typedPage : typedPages)
 
     pageParams page =
         extraParams
@@ -179,11 +193,12 @@ buildRequest AppConfig{..} url queryParams = do
                 (map (\(k, v) -> (BS8.pack k, Just (BS8.pack v))) queryParams)
                 req0
     let req2 = setRequestHeader "Accept" ["application/vnd.github+json"] req1
-    let req3 = setRequestHeader "User-Agent" ["github-analyser"] req2
+    let req3 = setRequestHeader "X-GitHub-Api-Version" ["2022-11-28"] req2
+    let req4 = setRequestHeader "User-Agent" ["github-analyser"] req3
     pure $
         case githubToken of
-            Nothing -> req3
-            Just token -> setRequestHeader "Authorization" ["Bearer " <> BS8.pack (T.unpack token)] req3
+            Nothing -> req4
+            Just token -> setRequestHeader "Authorization" ["Bearer " <> BS8.pack (T.unpack token)] req4
 
 decodeBody :: FromJSON a => BS8.ByteString -> IO a
 decodeBody body =
@@ -194,6 +209,13 @@ decodeBody body =
 writeRawArray :: FilePath -> [Value] -> IO ()
 writeRawArray path values =
     LBS.writeFile path (encode values)
+
+emptyPagedCollection :: PagedCollection a
+emptyPagedCollection =
+    PagedCollection
+        { rawItems = []
+        , typedItems = []
+        }
 
 toCommitRecord :: T.Text -> GitHubCommitItem -> Commit
 toCommitRecord repoName' GitHubCommitItem{..} =
@@ -215,3 +237,12 @@ firstLine =
   where
     headOrEmpty [] = ""
     headOrEmpty (x : _) = x
+
+repoCoordinates :: AppConfig -> Repo -> (T.Text, T.Text)
+repoCoordinates cfg repo =
+    case T.breakOn "/" (fullName repo) of
+        (owner, slugWithSlash)
+            | not (T.null owner)
+            , Just slug <- T.stripPrefix "/" slugWithSlash ->
+                (owner, slug)
+        _ -> (targetUser cfg, repoName repo)

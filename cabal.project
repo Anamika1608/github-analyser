@@ -1,0 +1,4 @@
+packages: .
+
+-- Relax stale package bounds when building with newer GHC releases.
+allow-newer: all

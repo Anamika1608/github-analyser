@@ -7,10 +7,13 @@ module GitHubAnalyser.Config (
     parseCommand,
 ) where
 
+import Control.Monad (forM_, when)
 import Data.Maybe (fromMaybe)
+import Data.Char (isSpace)
 import qualified Data.Text as T
 import Data.Time.Clock (UTCTime, addUTCTime, getCurrentTime, nominalDay)
-import System.Environment (lookupEnv)
+import System.Directory (doesFileExist)
+import System.Environment (lookupEnv, setEnv)
 import Text.Read (readMaybe)
 
 data Command
@@ -38,6 +41,7 @@ parseCommand _ = Left "Unknown or missing command."
 
 loadConfig :: IO AppConfig
 loadConfig = do
+    loadDotEnvIfPresent
     user <- fmap (T.pack . fromMaybe "Anamika1608") (lookupEnv "GITHUB_ANALYSER_USER")
     token <- fmap T.pack <$> lookupEnv "GITHUB_TOKEN"
     rawDir <- fromMaybe "data/raw" <$> lookupEnv "GITHUB_ANALYSER_RAW_DIR"
@@ -64,3 +68,44 @@ readEnvInteger name fallback = do
     value <- lookupEnv name
     pure $ maybe fallback id (value >>= readMaybe)
 
+loadDotEnvIfPresent :: IO ()
+loadDotEnvIfPresent = do
+    exists <- doesFileExist ".env"
+    when exists $ do
+        contents <- readFile ".env"
+        forM_ (lines contents) applyDotEnvLine
+
+applyDotEnvLine :: String -> IO ()
+applyDotEnvLine rawLine =
+    case parseDotEnvAssignment rawLine of
+        Nothing -> pure ()
+        Just (name, value) -> do
+            existing <- lookupEnv name
+            case existing of
+                Just _ -> pure ()
+                Nothing -> setEnv name value
+
+parseDotEnvAssignment :: String -> Maybe (String, String)
+parseDotEnvAssignment rawLine =
+    case break (== '=') (dropExportPrefix (trim rawLine)) of
+        ("", _) -> Nothing
+        (_, "") -> Nothing
+        (name, _ : value) -> Just (trim name, stripQuotes (trim value))
+  where
+    dropExportPrefix line =
+        case words line of
+            "export" : rest -> unwords rest
+            _ -> line
+
+trim :: String -> String
+trim =
+    dropWhileEnd isSpace . dropWhile isSpace
+  where
+    dropWhileEnd predicate = reverse . dropWhile predicate . reverse
+
+stripQuotes :: String -> String
+stripQuotes value =
+    case value of
+        '"' : rest | not (null rest) && last rest == '"' -> init rest
+        '\'' : rest | not (null rest) && last rest == '\'' -> init rest
+        _ -> value
