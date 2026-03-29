@@ -1,0 +1,189 @@
+repo_name,sha,author_login,author_name,authored_at,committed_at,message_title,parent_count,is_merge_commit
+Anamika1608,8fdd6377baf07bf333164d1a9228e7da6a72e410,Anamika1608,Anamika Aggarwal,2025-04-06T14:50:47Z,2025-04-06T14:50:47Z,Update README.md,1,false
+Anamika1608,8771ba205f66a1fa72e9bbe46082b05ff960b822,Anamika1608,Anamika Aggarwal,2025-04-06T14:51:25Z,2025-04-06T14:51:25Z,Update README.md,1,false
+Anamika1608,c93b3bca1c352a7c9ff40cd171aa4be9f1bd1c1d,Anamika1608,Anamika Aggarwal,2025-04-10T12:45:46Z,2025-04-10T12:45:46Z,Update README.md,1,false
+Anamika1608,3ea108fcc8ad93772b20234f210a3308a6f0a64a,Anamika1608,Anamika Aggarwal,2025-04-20T18:22:25Z,2025-04-20T18:22:25Z,Update README.md,1,false
+Anamika1608,fd6046c17ce2410fa5296164eb758aede16b9541,Anamika1608,Anamika Aggarwal,2025-04-20T18:28:30Z,2025-04-20T18:28:30Z,Update README.md,1,false
+Anamika1608,847f2f4ebaac47200f2aa9e120f03bf729d190d5,Anamika1608,Anamika Aggarwal,2025-04-20T18:29:56Z,2025-04-20T18:29:56Z,Update README.md,1,false
+Anamika1608,d7581de0cff835652b25021339df05d29e66be9c,Anamika1608,Anamika Aggarwal,2025-04-20T18:30:44Z,2025-04-20T18:30:44Z,Update README.md,1,false
+Anamika1608,8fc5ebf29ba1cf2250050b5e00bc66926645883d,Anamika1608,Anamika Aggarwal,2025-06-05T05:16:26Z,2025-06-05T05:16:26Z,Update README.md,1,false
+Anamika1608,17424428859d69ee11d092aeb859e2d8d2b4fba4,Anamika1608,Anamika Aggarwal,2025-06-20T15:14:17Z,2025-06-20T15:14:17Z,Update README.md,1,false
+Anamika1608,0e819a493bb5d44411860501f7797a3c6dcbdc2d,Anamika1608,Anamika Aggarwal,2025-06-20T15:15:22Z,2025-06-20T15:15:22Z,Update README.md,1,false
+Anamika1608,89ac60a8fc46c0c617b1ba2dadf33c1dd0867007,Anamika1608,Anamika Aggarwal,2025-07-10T14:38:48Z,2025-07-10T14:38:48Z,Update README.md,1,false
+Anamika1608,ec6b3b2fafab1ef6252126184d877e1b2acc71e4,Anamika1608,Anamika Aggarwal,2025-08-04T10:09:52Z,2025-08-04T10:09:52Z,Update README.md,1,false
+Anamika1608,f102737de9adf63f8349bd3cfd2246efd12f08af,Anamika1608,Anamika Aggarwal,2025-09-12T18:12:28Z,2025-09-12T18:12:28Z,Update README.md,1,false
+Anamika1608,cc68e61127ff31ab79d4cc67cd599f356e77ca4d,Anamika1608,Anamika Aggarwal,2025-09-24T16:17:26Z,2025-09-24T16:17:26Z,Update README.md,1,false
+Anamika1608,18242b160ce19e9694bac4d407043353ff41c5ff,Anamika1608,Anamika Aggarwal,2025-09-24T16:17:53Z,2025-09-24T16:17:53Z,Update README.md,1,false
+Anamika1608,fc9889f19ace0a7a3c93af9467a133769f57a79e,Anamika1608,Anamika Aggarwal,2025-10-01T17:35:57Z,2025-10-01T17:35:57Z,Update README.md,1,false
+Anamika1608,c80aed14fba2e4aedf78cd295891c2a5534241fc,Anamika1608,Anamika Aggarwal,2025-10-17T16:49:25Z,2025-10-17T16:49:25Z,Update README.md,1,false
+Detoxie,cb2f297b038aa68f616ba147960eac85e2b6a70d,Anamika1608,Anamika Aggarwal,2025-06-21T11:04:08Z,2025-06-21T11:04:08Z,Initial commit,0,false
+Detoxie,2a6a7cd5c52d3aa77cf6c265effc32421f3d8236,Anamika1608,Anamika Aggarwal,2025-06-21T11:59:55Z,2025-06-21T11:59:55Z,Integrate Nativewind,1,false
+Detoxie,f47c02c3a793eaaadd03cf7e3f55483f1954dc9b,Anamika1608,Anamika Aggarwal,2025-06-21T15:52:59Z,2025-06-21T15:52:59Z,Integrate ReelsMonitorService for reels section,1,false
+Detoxie,814cfbabd8476104195ccb6eb51a1a52b29f2e2e,Anamika1608,Anamika Aggarwal,2025-06-22T05:57:29Z,2025-06-22T05:57:29Z,Add reel time tracking,1,false
+Detoxie,69b4ba0e85d189c34ba5522428e098406e044b82,Anamika1608,Anamika Aggarwal,2025-07-06T10:38:47Z,2025-07-06T10:38:47Z,Display Overlay on Instagram When User Passes Threshold,1,false
+Detoxie,fb5ae67910d4754514806a7205adbad32601d1b9,Anamika1608,Anamika Aggarwal,2025-07-06T11:34:16Z,2025-07-06T11:34:16Z,Add reels tracking to explore page,1,false
+Detoxie,c4e0b8e2583f941b1a47506463f6be35a51bca9c,Anamika1608,Anamika Aggarwal,2025-08-09T13:29:00Z,2025-08-09T13:29:00Z,Add ReelsMonitor Modules and Packages,1,false
+Detoxie,a0ede3d7fe2fc39a0d30cffc0574bc12cd7d0493,Anamika1608,Anamika Aggarwal,2025-08-13T16:24:21Z,2025-08-13T16:24:21Z,"Add database helper, config and tables",1,false
+Detoxie,a5f7483d5f88ba9d1cd9c09b005a427d82c26728,Anamika1608,Anamika Aggarwal,2025-08-14T14:15:17Z,2025-08-14T14:15:17Z,Add the total time spent basic screens,1,false
+Detoxie,509ac8a0dcaebe7ea7ac4b35a8e6c4cd120d4b52,Anamika1608,Anamika Aggarwal,2025-08-17T09:34:24Z,2025-08-17T09:34:24Z,Add the welcome screen with custom fonts,1,false
+Detoxie,4334e55b35c5ff361b07cdb83da984481757a86f,Anamika1608,Anamika Aggarwal,2025-08-17T09:53:07Z,2025-08-17T09:53:07Z,Add global declaration file for classname and image import,1,false
+Detoxie,c93a73c583a7d8ae7fea307a3b955141ec245257,Anamika1608,Anamika Aggarwal,2025-08-17T16:07:48Z,2025-08-17T16:07:48Z,Add the permission asking screen,1,false
+Detoxie,e77766bf2cee302603cbc146cfc73a8a901a2c34,Anamika1608,Anamika Aggarwal,2025-08-17T16:46:29Z,2025-08-17T16:46:29Z,Add disabled property to CutomButton,1,false
+Detoxie,efa14fff7c26c2b30ae90bd03b787e175b0778f5,Anamika1608,Anamika Aggarwal,2025-08-18T04:04:08Z,2025-08-18T04:04:08Z,Update README.md,1,false
+Detoxie,dce7b3c39291b8b0e11ac164a9f6f60d0eeb5df1,Anamika1608,Anamika Aggarwal,2025-08-19T09:04:08Z,2025-08-19T09:04:08Z,Add permisssion modals with permission cards,1,false
+Detoxie,07ee80d8569a2a031c31d58578a345c5f1c38827,Anamika1608,Anamika Aggarwal,2025-08-19T17:04:24Z,2025-08-19T17:04:24Z,Integrate settings permissions to permission modal,1,false
+Detoxie,90aa760236eb0387f64ee92d739a3fe3e431c8bf,Anamika1608,Anamika Aggarwal,2025-09-03T15:46:58Z,2025-09-03T15:46:58Z,fix permission screen ui button and image,1,false
+Detoxie,794e70f838e02b95c05d8275ce249692e138403a,Anamika1608,Anamika Aggarwal,2025-09-04T08:26:14Z,2025-09-04T08:26:14Z,Add Homescreen,1,false
+Detoxie,be747dd011572f6552e0fcf66343021749d0ef76,Anamika1608,Anamika Aggarwal,2025-09-13T14:37:10Z,2025-09-13T14:37:10Z,Add set timer screen,1,false
+Detoxie,dfb811a91ef407c551e463163f1afe975a793d29,Anamika1608,Anamika Aggarwal,2025-09-15T10:24:39Z,2025-09-15T10:24:39Z,Add todo screen and integrate db into timer screen,1,false
+Detoxie,ae73ce2dcfea57a11bf8471b500eaa7a7e0b62df,Anamika1608,Anamika Aggarwal,2025-09-15T10:33:53Z,2025-09-15T10:33:53Z,add toaster when timer is saved,1,false
+Detoxie,ca2b42dc3241fc21741eecb071c195b2d667029c,Anamika1608,Anamika Aggarwal,2025-09-15T11:06:31Z,2025-09-15T11:06:31Z,Refactor the illustration images,1,false
+Detoxie,17edc5181e74ac3f6485e3b70478cda7ac0f5ea7,Anamika1608,Anamika Aggarwal,2025-09-16T09:32:47Z,2025-09-16T09:32:47Z,Add dream vision screen with react-native-image-picker,1,false
+Detoxie,c2862685c36e08f8ac8a20ad50bfd0f8cca56bf6,Anamika1608,Anamika Aggarwal,2025-09-16T09:40:58Z,2025-09-16T09:40:58Z,Make the minimum timer to 5 min in setTimer screen,1,false
+Detoxie,ceb9daf1c3aa9cb24e1d07cce77165fc00b3b278,Anamika1608,Anamika Aggarwal,2025-09-16T10:32:18Z,2025-09-16T10:32:18Z,Add custom alert and toast,1,false
+Detoxie,d52dbccfcc8b933c555a4779c9646f847c1c09cc,Anamika1608,Anamika Aggarwal,2025-09-16T10:45:37Z,2025-09-16T10:45:37Z,Edit alert and toaster for todo screen,1,false
+Detoxie,e6fc786beeb960ff09bb93fab0f6e1d970f3778f,Anamika1608,Anamika Aggarwal,2025-09-16T11:49:39Z,2025-09-16T11:49:39Z,Add react-native-slider and image-picker packages,1,false
+Detoxie,74ed3efb5c1b86a21f9e94283dc69cbac40eb0a1,Anamika1608,Anamika Aggarwal,2025-09-16T12:12:11Z,2025-09-16T12:12:11Z,Add static overlay for instagram,1,false
+Detoxie,58d16efd08c570e2191a4f3cdf1e1b27ea66f616,Anamika1608,Anamika Aggarwal,2025-09-17T07:37:12Z,2025-09-17T07:37:12Z,"Add custom overlay with app timer, todos & dream vision",1,false
+Detoxie,7d8c58cbbf4272b28002c0bb99df835746467d42,Anamika1608,Anamika Aggarwal,2025-09-18T16:40:49Z,2025-09-18T16:40:49Z,Update README.md,1,false
+Detoxie,ebba12f0db9b21bcff4f69df6ec3293b40a3fe4c,Anamika1608,Anamika Aggarwal,2025-09-26T05:16:16Z,2025-09-26T05:16:16Z,Edit task interface,1,false
+Detoxie,240afc1e25127d129199f656148205f3b87d09e2,Anamika1608,Anamika Aggarwal,2025-09-26T05:16:18Z,2025-09-26T05:16:18Z,Merge branch 'main' of https://github.com/Anamika1608/Detoxie,2,true
+Detoxie,0338c410ef04c34c5c3f65573f508b925c9ec36a,Anamika1608,Anamika Aggarwal,2025-09-26T07:38:26Z,2025-09-26T07:38:26Z,edit the string line in overlay,1,false
+Detoxie,2ecb9c4037af93a6df5a5cf384afabd66497b511,Anamika1608,Anamika Aggarwal,2025-09-29T10:10:13Z,2025-09-29T10:10:13Z,fix illustration position in dreamVision screen,1,false
+Detoxie,485f2b4d1e4e87b4c118043f7b4da7009425f88e,Anamika1608,Anamika Aggarwal,2025-09-29T13:09:32Z,2025-09-29T13:09:32Z,change app logo images,1,false
+Detoxie,c8d773cef46d813d08b8278835e4b8f9b38fe7ac,Anamika1608,Anamika Aggarwal,2025-10-22T11:51:01Z,2025-10-22T11:51:01Z,add meme image as default in overlay image,1,false
+Detoxie,4d7cb65947b674d9a1b57d973180404fcc8d7f30,Anamika1608,Anamika Aggarwal,2025-10-22T15:50:48Z,2025-10-22T16:01:38Z,integrate vacation mode,1,false
+Detoxie,71ff0da31d77e4d65b1391b023a1b5599fe57e44,Anamika1608,Anamika AggarwaL,2026-01-09T16:03:39Z,2026-01-09T16:03:39Z,Enhance navigation and permission handling in App component,1,false
+Detoxie,2744f8a8186ef36efac090cec5f2cc5421948939,Anamika1608,Anamika AggarwaL,2026-01-09T19:31:27Z,2026-01-09T19:31:27Z,Update app launcher icons across multiple resolutions,1,false
+Detoxie,8a6505975c6bdc655f94012437630470eaf9d9a8,Anamika1608,Anamika AggarwaL,2026-01-10T11:08:48Z,2026-01-10T11:08:48Z,"Revert ""Update app launcher icons across multiple resolutions""",1,false
+Detoxie,66bca9da2b4c8d3876bd9fb85403b02dd9946682,Anamika1608,Anamika AggarwaL,2026-01-13T03:04:08Z,2026-01-13T03:04:08Z,improve ui layout of the app for different screen sizes,1,false
+Detoxie,fd7026d16c0db4d88c9ef0fdd3358b22ed355f64,Anamika1608,Anamika AggarwaL,2026-01-15T13:49:16Z,2026-01-15T13:49:16Z,fix the edge to edge android issue,1,false
+Detoxie,bed49f12a65016152be6b44e03288b37cb320522,Anamika1608,Anamika AggarwaL,2026-01-19T09:53:14Z,2026-01-19T09:53:14Z,fix edge to edge app crash bug,1,false
+Detoxie,41fc31ff440ca4db82f24127a186377b01c6b21a,Anamika1608,Anamika AggarwaL,2026-01-20T09:48:59Z,2026-01-20T09:48:59Z,"Revert ""fix edge to edge app crash bug""",1,false
+Detoxie,f3d912ba76940a5b4ec402f5b724cae3ea5168f2,Anamika1608,Anamika AggarwaL,2026-01-20T09:49:23Z,2026-01-20T09:49:23Z,"Revert ""fix the edge to edge android issue""",1,false
+Detoxie,d42699f6d98525dc77b4fa98fecd680ec3fc26a2,Anamika1608,Anamika AggarwaL,2026-01-23T09:04:30Z,2026-01-23T09:04:30Z,fix permission checking for main screen,1,false
+Detoxie,845ac9db19dc4e8c2a6a192b633c7fb64d188cc4,Anamika1608,Anamika AggarwaL,2026-01-24T12:53:13Z,2026-01-24T12:53:13Z,"Revert ""improve ui layout of the app for different screen sizes""",1,false
+Detoxie,9aac6d782f36952add7e81ae6e8c159e8b27f357,Anamika1608,Anamika AggarwaL,2026-01-25T13:11:34Z,2026-01-25T17:16:41Z,added the beige background in app launch in place of loader,1,false
+Detoxie,820928320851ab7ee06fbbd534863473f459f7e9,Anamika1608,Anamika AggarwaL,2026-01-25T17:05:16Z,2026-01-25T17:16:53Z,fixes app release config in build.gradle,1,false
+Detoxie,c8045ebfac87f0622c29a6092232d3fd3b39aeeb,Anamika1608,Anamika Aggarwal,2026-01-25T17:17:25Z,2026-01-25T17:17:25Z,"Merge pull request #1 from Anamika1608/fix/crashout",2,true
+Detoxie,9e0e846c4e32b29cb38345a4a62a04ec6c7d4182,Anamika1608,Anamika Aggarwal,2026-01-27T18:25:56Z,2026-01-27T18:25:56Z,Update README with Google Play link,1,false
+Detoxie,c918bef446bd8459a9aeaa561e94e915333710fa,Anamika1608,Anamika AggarwaL,2026-02-01T15:52:59Z,2026-02-01T15:52:59Z,Implement Content Monitoring Feature,1,false
+Detoxie,716068bd961a19e955105d7a3001da8a8724a953,Anamika1608,Anamika AggarwaL,2026-02-06T14:43:02Z,2026-02-06T14:43:02Z,Add Platform Stats and Navigation Updates,1,false
+Detoxie,cc15667f8c5210a1b77af6be6bcdeeb3958e169a,Anamika1608,Anamika AggarwaL,2026-02-06T14:43:15Z,2026-02-06T16:03:53Z,Enhance PlatformStatsScreen and SetTimerScreen Functionality,1,false
+Detoxie,8e499129d66f5ec314aa53e8062cfbb36787ff3f,Anamika1608,Anamika Aggarwal,2026-03-12T18:29:40Z,2026-03-12T18:29:40Z,Fix formatting in README.md,1,false
+Friends-listing-webapp,07c90094852f0b64441d4dad65feb7c2110a9420,Anamika1608,Anamika Aggarwal,2025-04-07T17:38:39Z,2025-04-07T17:38:39Z,initliase ruby project,0,false
+Friends-listing-webapp,d3a201747d9d27987bbb7caa79d49abac260dddf,Anamika1608,Anamika Aggarwal,2025-04-11T13:29:53Z,2025-04-11T13:29:53Z,refactor file structure; added header&footer layout,1,false
+Friends-listing-webapp,03a223e0533915ef2c6030c80354f10ba07bcbf7,Anamika1608,Anamika Aggarwal,2025-04-11T16:29:47Z,2025-04-11T16:29:47Z,integrated tailwind v4,1,false
+Friends-listing-webapp,099640bbbed96af131053bedf89dd4c346e9f16b,Anamika1608,Anamika Aggarwal,2025-04-12T09:10:07Z,2025-04-12T09:10:07Z,added friends model and gallery/mine route,1,false
+Friends-listing-webapp,f1fda4edc8aa428d98ef2cd9809af45eb733c74b,Anamika1608,Anamika Aggarwal,2025-04-12T14:32:17Z,2025-04-12T14:32:17Z,display all friends,1,false
+Friends-listing-webapp,acfce26f815a7b365c39591550e2b551a4bbd26f,Anamika1608,Anamika Aggarwal,2025-04-12T14:49:44Z,2025-04-12T14:49:44Z,access particular friend,1,false
+Friends-listing-webapp,1678c6906b2af76b2c8596d708e08b7d76b32af4,Anamika1608,Anamika Aggarwal,2025-04-22T16:49:29Z,2025-04-22T16:49:29Z,new friend route,1,false
+behavioral-model,f52b71df4fe5029be0a8e4b4c12a8cc90837d5f4,Anamika1608,Anamika AggarwaL,2026-03-10T17:49:15Z,2026-03-10T17:49:15Z,Add automated monthly release workflows,1,false
+behavioral-model,b5feb4cd293a3deffa88df01f477779d4f607d8f,Anamika1608,Anamika Aggarwal,2026-03-10T17:49:48Z,2026-03-10T17:49:48Z,"Merge pull request #1 from Anamika1608/automated-monthly-releases",2,true
+behavioral-model,a728f87677eff594b8f62caa1f5dc636a0d5072f,Anamika1608,Anamika AggarwaL,2026-03-10T17:51:22Z,2026-03-10T17:51:22Z,"Fix: add git describe fallback, remove reviewers for fork testing",1,false
+behavioral-model,5f91b2fa905fe8efdac47e8c5ba03d269d4a2274,Anamika1608,Anamika Aggarwal,2026-03-10T17:51:38Z,2026-03-10T17:51:38Z,"Merge pull request #2 from Anamika1608/automated-monthly-releases",2,true
+behavioral-model,1e0ec4b7fd633d6fc6eda996739f72853ff60aeb,Anamika1608,Anamika Aggarwal,2026-03-11T18:08:06Z,2026-03-11T18:08:06Z,Merge branch 'p4lang:main' into main,2,true
+comet-assistant,e671d5cadbfa2f5bade9de9501dc6f004c07b16e,Anamika1608,Anamika AggarwaL,2026-02-09T11:43:36Z,2026-02-09T11:43:36Z,chore: bootstrap backend config and repository ignores,0,false
+comet-assistant,26779fd4926fd29aa643acac5dbcc8a2b6e26913,Anamika1608,Anamika AggarwaL,2026-02-09T12:22:28Z,2026-02-09T12:22:28Z,feat(server): add autonomous browser task engine with live events,1,false
+comet-assistant,e7d3e6324c56b68ec566185ce6d1fa4bff2f624b,Anamika1608,Anamika AggarwaL,2026-02-09T13:15:59Z,2026-02-09T13:15:59Z,feat(client): scaffold task creation flow with API polling,1,false
+comet-assistant,a4961d29a20581919bd0e9445a6bd516ae82f0f1,Anamika1608,Anamika AggarwaL,2026-02-09T14:44:29Z,2026-02-09T14:44:29Z,feat(client): add realtime dashboard with websocket task updates,1,false
+comet-assistant,3fb2a91da11baab78e42c64d85d041d9c8409a3b,Anamika1608,Anamika AggarwaL,2026-02-10T10:07:18Z,2026-02-10T10:07:18Z,feat(agent): enhance error handling in LLM task execution and update screenshot format,1,false
+comet-assistant,3b6574034b57dfb5aef4c951a854a9ece4fbecfc,Anamika1608,Anamika AggarwaL,2026-02-11T00:35:50Z,2026-02-11T00:35:50Z,"feat(server, client): implement hold and drag actions for enhanced user interaction",1,false
+comet-assistant,10152528e9181d09b6ec2f566958a77bfba7180d,Anamika1608,Anamika AggarwaL,2026-02-11T01:57:32Z,2026-02-11T01:57:32Z,feat(server): improve task execution flow with steps execution error handling,1,false
+comet-assistant,45c9984eb6cffa1270c6b74b796cadc2464a3e8d,Anamika1608,Anamika AggarwaL,2026-02-11T02:45:21Z,2026-02-11T02:45:21Z,feat(server): integrate visible elements into LLM decision-making process and update prompt,1,false
+comet-assistant,78e84742444541b5fe2e323ef345c0f5564750a5,Anamika1608,Anamika AggarwaL,2026-02-11T05:36:03Z,2026-02-11T05:36:03Z,feat(agent): implement task summary updates and enhance LLM context with task history,1,false
+comet-assistant,bce0a7e5b7dbf0d7ff6ad200973d68358f436763,Anamika1608,Anamika AggarwaL,2026-02-11T05:36:14Z,2026-02-11T05:36:14Z,feat(agent): refine task summary generation with concise thoughts and explicit error guidance,1,false
+comet-assistant,7864c109d26ee0aebf9a7d7f809c4d44e2042c2c,Anamika1608,Anamika AggarwaL,2026-02-11T13:31:26Z,2026-02-11T13:31:26Z,"feat(agent): enhance LLM decision-making with full DOM and accessibility tree, update task summary to include blocked selectors",1,false
+dataframe,57f6d68c89eea0c91a3c77251c9c95d8d07010fe,Anamika1608,Anamika Aggarwal,2026-03-17T15:53:33Z,2026-03-17T15:53:33Z,"fix: alignment in iris tutorial introduction (#185)",1,false
+dataframe,424044918eabecaf41ec138aafff20def1dfd697,Anamika1608,Anamika Aggarwal,2026-03-25T08:32:33Z,2026-03-25T08:32:33Z,"fix joins for missing key columns (#187)",1,false
+detoxie-website,1dbf982c31cb5aa2a733888169fcbd2737a70f74,Anamika1608,Anamika Aggarwal,2025-09-08T18:05:50Z,2025-09-08T18:05:50Z,Initial commit from Create Next App,0,false
+detoxie-website,eb6a62dc97fa79dbca1bfa7a50d6f7d8755408e3,Anamika1608,Anamika Aggarwal,2025-09-09T20:55:27Z,2025-09-09T20:55:27Z,add first version of webpage,1,false
+detoxie-website,8a08b69bf0857f0d5ec89d5624066120b2e5ae6c,Anamika1608,Anamika Aggarwal,2025-09-09T22:01:26Z,2025-09-09T22:01:26Z,Edit background and image screenshots,1,false
+detoxie-website,81f55d0e70f6cbd8f7ee1af4bf0399ee45916714,Anamika1608,Anamika Aggarwal,2025-09-09T22:20:40Z,2025-09-09T22:20:40Z,add the arrow and star icon on button,1,false
+detoxie-website,4e9547dbc943c37762959c4bbaef6d56e638627f,Anamika1608,Anamika Aggarwal,2025-09-09T22:25:56Z,2025-09-09T22:25:56Z,add contact me button,1,false
+detoxie-website,9fb74b3f3b095adf57f850af5a80ea0c8bffcdc3,Anamika1608,Anamika Aggarwal,2025-09-09T22:30:58Z,2025-09-09T22:30:58Z,Update README.md,1,false
+detoxie-website,91c833f821ce526798dedd13b622dc547f94e3ec,Anamika1608,Anamika Aggarwal,2025-09-09T22:41:26Z,2025-09-09T22:41:26Z,edit favicon,1,false
+detoxie-website,5954de5d93744e0d4737522ed871460494a04846,Anamika1608,Anamika Aggarwal,2025-09-09T22:41:29Z,2025-09-09T22:41:29Z,Merge branch 'main' of https://github.com/Anamika1608/detoxie-website,2,true
+detoxie-website,11e78b2ee80058547c1ab8f10b8de2092f97ecd5,Anamika1608,Anamika Aggarwal,2025-09-09T22:46:35Z,2025-09-09T22:46:35Z,edit metadata,1,false
+detoxie-website,637703b5fb2adf24653225ffc08875040377962a,Anamika1608,Anamika Aggarwal,2025-09-10T05:43:13Z,2025-09-10T05:43:46Z,add dots to background gradient,1,false
+detoxie-website,a93fc39341f21f1c8208a4e3aa33bea50add0a1d,Anamika1608,Anamika Aggarwal,2025-09-10T10:17:39Z,2025-09-10T10:17:39Z,make hero section responsive,1,false
+detoxie-website,e9b0c43671bdaa2e0122991b7d2eb580880ea07b,Anamika1608,Anamika Aggarwal,2025-09-26T08:47:16Z,2025-09-26T08:54:13Z,add privacy policy page,1,false
+detoxie-website,32a3543c729a23a754f47b5207638d0b7e6d140a,Anamika1608,Anamika Aggarwal,2025-09-29T16:26:09Z,2025-09-29T16:26:09Z,change favicon,1,false
+detoxie-website,72e2d6c783a09edde409fcfc28da042b25000d83,Anamika1608,Anamika AggarwaL,2026-01-09T19:36:06Z,2026-01-09T19:36:06Z,change favicon,1,false
+detoxie-website,23f681b812d8207c28289003f35d37453f0205eb,Anamika1608,Anamika AggarwaL,2026-01-09T19:36:06Z,2026-01-09T19:48:26Z,change favicon,1,false
+detoxie-website,8bbf72fb1f5093075e92ff6c84e78b7112e5a609,Anamika1608,Anamika AggarwaL,2026-01-09T19:54:21Z,2026-01-09T19:54:21Z,Merge branch 'main' of https://github.com/Anamika1608/detoxie-website into vercel/react-server-components-cve-vu-11350r,2,true
+detoxie-website,f326c854753a8d766556bc1b7f2156e975bbd707,Anamika1608,Anamika Aggarwal,2026-01-09T19:54:39Z,2026-01-09T19:54:39Z,"Merge pull request #2 from Anamika1608/vercel/react-server-components-cve-vu-11350r",2,true
+detoxie-website,34fe578b8b418e974f0258d19d517575a7949db5,Anamika1608,Anamika AggarwaL,2026-01-09T20:00:56Z,2026-01-09T20:00:56Z,make the favicon background transparent,1,false
+detoxie-website,211c24981a8784a64660b7cb684ea516f7670aa7,Anamika1608,Anamika AggarwaL,2026-01-09T20:03:19Z,2026-01-09T20:03:19Z,"Revert ""make the favicon background transparent""",1,false
+detoxie-website,fe4aee9c9d145d5a9d0d77152a59b83a400107f6,Anamika1608,Anamika AggarwaL,2026-01-10T10:53:42Z,2026-01-10T10:53:42Z,"Revert ""change favicon""",1,false
+detoxie-website,1dc1b1eae480df01ac425c821be1d053db224e38,Anamika1608,Anamika AggarwaL,2026-01-10T11:05:29Z,2026-01-10T11:05:29Z,"Revert ""change favicon""",1,false
+detoxie-website,87b2b0adf5228abedb38c8ef2e7e051ba0821e4d,Anamika1608,Anamika AggarwaL,2026-01-25T17:54:58Z,2026-01-25T17:54:58Z,"edit ""soon on play store"" button",1,false
+detoxie-website,ab3b372ee1f0a611e7eb42774c394b15f656a1ec,Anamika1608,Anamika AggarwaL,2026-01-26T06:12:48Z,2026-01-26T06:12:48Z,Refactor homepage structure and add new components,1,false
+detoxie-website,0778cb744bcd3b3b375da65c54c9e216c63f3cb1,Anamika1608,Anamika AggarwaL,2026-01-26T06:16:58Z,2026-01-26T06:16:58Z,Update text formatting in CTABanner and FeaturesSection components,1,false
+detoxie-website,3fe6df4536e886ac30cfdac405c2dc76676d27a4,Anamika1608,Anamika AggarwaL,2026-01-26T07:19:14Z,2026-01-26T07:19:14Z,fix cta section and feature section for mobile view,1,false
+detoxie-website,173a560dedbef7dacec6214975f9362ab8fa9ca4,Anamika1608,Anamika AggarwaL,2026-01-26T07:22:48Z,2026-01-26T07:22:48Z,"Refactor image handling in CTABanner, FeaturesSection, and HeroSection components",1,false
+detoxie-website,7bab148f475050e9af64d2f4d26c5e98e2271c2b,Anamika1608,Anamika AggarwaL,2026-01-26T08:39:01Z,2026-01-26T08:39:01Z,remove sacroll based images for the mobile view,1,false
+detoxie-website,1d6bb5a0afe1d8eef81aad4a80b14b07103f2a68,Anamika1608,Anamika AggarwaL,2026-01-26T09:21:39Z,2026-01-26T09:21:39Z,add Open Graph image for improved SEO and social sharing,1,false
+detoxie-website,206ccb27fc081609d38f0fedf9c69d4632ae15dc,Anamika1608,Anamika AggarwaL,2026-01-26T09:24:56Z,2026-01-26T09:24:56Z,add star svg image,1,false
+detoxie-website,29f5955db332088841a7ecc650e3bfa1aa825b77,Anamika1608,Anamika AggarwaL,2026-01-26T14:37:17Z,2026-01-26T14:37:17Z,Update metadata titles for improved clarity and SEO,1,false
+detoxie-website,4c870964467f170f2dee6faef9727cb13a382147,Anamika1608,Anamika AggarwaL,2026-01-31T17:02:45Z,2026-01-31T17:02:45Z,Broaden messaging to cover all short-form video platforms,1,false
+github-analyser,9e942d2f3705f7179cdac68e6ded1397ebbbf3a7,Anamika1608,Anamika Aggarwal,2026-03-28T04:16:30Z,2026-03-28T04:16:30Z,Initial commit,0,false
+github-analyser,63fbcc1125c4791867508b67905fc100ee2cab3a,Anamika1608,Anamika AggarwaL,2026-03-28T18:02:31Z,2026-03-28T18:30:39Z,Scaffold GitHub ingestion pipeline,1,false
+job-hunter-mvp,6b078e6b34f5e55654525c29527a9bbe36cf1434,Anamika1608,Anamika Aggarwal,2025-10-02T18:49:14Z,2025-10-02T18:49:14Z,first commit,0,false
+job-hunter-mvp,0e9ab7fb55700332e46f86af0e497bb005dde3cc,Anamika1608,Anamika Aggarwal,2025-10-02T18:56:03Z,2025-10-02T18:56:03Z,add jobModels and playwright,1,false
+job-hunter-mvp,14c384e30562391eec819e76dc91542a7539ccac,Anamika1608,Anamika Aggarwal,2025-10-02T19:17:22Z,2025-10-02T19:17:22Z,Integrate crawler and update ui,1,false
+job-hunter-mvp,45a29a848ad76d935442c0270c02a023ff30afb0,Anamika1608,Anamika Aggarwal,2025-10-02T19:23:18Z,2025-10-02T19:23:18Z,add readme,1,false
+my-oss-contributions,d186bc9efa5a66fa460f33b97e626799560b5296,Anamika1608,Anamika Aggarwal,2025-08-15T07:55:33Z,2025-08-15T07:55:33Z,"",0,false
+my-oss-contributions,22c1bf2d977ce524d1d76eebed253fcef6499b71,Anamika1608,Anamika Aggarwal,2025-08-15T07:49:00Z,2025-08-15T07:56:43Z,Add readme,1,false
+my-oss-contributions,8be32dc2a3e7ab3a6c9648dbdd735d7be49f8a06,Anamika1608,Anamika Aggarwal,2025-08-15T09:05:34Z,2025-08-15T09:05:34Z,add cilium contributions,1,false
+my-oss-contributions,789cb57b1efcf529debbeb606c71451c4be52c12,Anamika1608,Anamika Aggarwal,2025-08-15T09:06:42Z,2025-08-15T09:06:42Z,add consul democracy contributions,1,false
+my-oss-contributions,1cfbf0eead4b5d59f184d32471f462770b727d9f,Anamika1608,Anamika Aggarwal,2025-08-16T05:16:28Z,2025-08-16T05:16:28Z,add logo overflow cilium contribution,1,false
+my-oss-contributions,ade4fb7d60482af94e1c4697fb0c5d5c081e6c90,Anamika1608,Anamika Aggarwal,2025-08-18T13:43:20Z,2025-08-18T13:43:20Z,Update README.md: add cilium contributions,1,false
+my-oss-contributions,3303e3d5ef5a6b21cdff4035c7188911e20a2759,Anamika1608,Anamika Aggarwal,2025-08-18T13:43:38Z,2025-08-18T13:43:38Z,Update README.md,1,false
+my-oss-contributions,d6408d45ee4e4335b7b9887b52d1607f20a7c2a5,Anamika1608,Anamika Aggarwal,2025-08-23T12:59:45Z,2025-08-23T12:59:45Z,Update README.md,1,false
+my-oss-contributions,e1d77d61107d4ad6ba0580dcfc9e521795909ba8,Anamika1608,Anamika Aggarwal,2025-09-01T16:13:11Z,2025-09-01T16:13:11Z,Update README.md,1,false
+my-oss-contributions,25a0e7c75eca4b5fa192b0781f7023862db757ff,Anamika1608,Anamika Aggarwal,2026-03-11T18:01:29Z,2026-03-11T18:01:29Z,Add P4Lang contributions section to README,1,false
+my-oss-contributions,fb89941594aa3cc85b84e89ad1664b894f9bca48,Anamika1608,Anamika Aggarwal,2026-03-26T17:18:18Z,2026-03-26T17:18:18Z,Update pull request statuses and add Dataframe contributions,1,false
+portfolio,39b28a3103e2a1d3c1ab1995da1db065f2dee83f,Anamika1608,Anamika Aggarwal,2025-04-12T17:13:14Z,2025-04-12T17:13:14Z,Initial commit,0,false
+portfolio,677322153916245e0153caa3c71dc16cc6819da3,Anamika1608,Anamika Aggarwal,2025-04-24T16:08:51Z,2025-04-24T16:08:51Z,Added CNAME,1,false
+portfolio,d3312551b4b33eb9b3328ea11839093e953d1e92,Anamika1608,Anamika Aggarwal,2025-04-25T21:58:10Z,2025-04-25T21:58:10Z,create-next-app,1,false
+portfolio,4e58997f88974740adc295c6f72491873d555804,Anamika1608,Anamika Aggarwal,2025-04-26T14:28:02Z,2025-04-26T14:28:02Z,added header; theme toggle component,1,false
+portfolio,a503d656d29e641bd17ab3e6a2462c3ac8ff38c1,Anamika1608,Anamika Aggarwal,2025-04-26T18:04:09Z,2025-04-26T18:04:09Z,integrated google fonts; theme provider; hero section,1,false
+portfolio,8ab67860bdc996e39c8d0dcc388e6c8977ed7bad,Anamika1608,Anamika Aggarwal,2025-04-26T21:08:12Z,2025-04-26T21:08:12Z,heroSection: added hack and startups exp,1,false
+portfolio,e0491511382a01f44930c9326b871e5e025e7cec,Anamika1608,Anamika Aggarwal,2025-04-26T21:46:31Z,2025-04-26T21:46:31Z,added featuredProjects card components; refactor file names,1,false
+portfolio,4253c1ad36d9f420b1af150b1dfb8bcf0d569313,Anamika1608,Anamika Aggarwal,2025-04-27T10:41:51Z,2025-04-27T10:41:51Z,added featured-projects section,1,false
+portfolio,b25fd156b7a1e7ac93af191212aaa6668e6c21e2,Anamika1608,Anamika Aggarwal,2025-04-28T18:27:33Z,2025-04-28T18:27:33Z,fix:projectGrid structure and make it responsive,1,false
+portfolio,33b05c203d5d78ec804c3f864b29a0606b87efa2,Anamika1608,Anamika Aggarwal,2025-04-28T20:09:24Z,2025-09-04T19:51:22Z,"make hero-section responsive, add featured project details",1,false
+portfolio,a47c9cfb99680b5aaab1fa24dcf5fb06c645de4b,Anamika1608,Anamika Aggarwal,2025-09-05T11:36:27Z,2025-09-05T11:36:27Z,Edit navbar and add stack animation to featured projects,1,false
+portfolio,93ca9542d4063907cfa53c586b3b388a29dd45e1,Anamika1608,Anamika Aggarwal,2025-09-05T22:00:10Z,2025-09-05T22:00:10Z,Add github contribution heatmap component,1,false
+portfolio,74f4b324208b442dfd98bc5ca99c29c726a55c52,Anamika1608,Anamika Aggarwal,2025-09-06T16:05:59Z,2025-09-06T16:05:59Z,Add work experience component,1,false
+portfolio,e88275063ae403362a916e06dd7a5b7406e81ef9,Anamika1608,Anamika Aggarwal,2025-09-07T13:09:49Z,2025-09-07T13:09:49Z,add open source contribution component,1,false
+portfolio,684f8e523ee1e99aedb7887f0e9fec46844ace83,Anamika1608,Anamika Aggarwal,2025-09-07T18:12:55Z,2025-09-07T18:12:55Z,Add link card in open source contributions,1,false
+portfolio,cf423303458b772bd29d144b0cf14bf56cb8bbbf,Anamika1608,Anamika Aggarwal,2025-09-07T19:19:11Z,2025-09-07T19:19:11Z,Edit Get in touch button with cal link,1,false
+portfolio,6dcc535793374085b60b5aa6c248197b76b09196,Anamika1608,Anamika Aggarwal,2025-09-07T21:37:51Z,2025-09-07T21:37:51Z,edit project grid in project section,1,false
+portfolio,8c5e2cd989092ce8bbf191331331edff8a176978,Anamika1608,Anamika Aggarwal,2025-09-07T22:51:20Z,2025-09-07T22:51:20Z,Add more stuff projects component,1,false
+portfolio,0dad22ad6431b2e644a58093db3c7b16a0ce3282,Anamika1608,Anamika Aggarwal,2025-09-10T10:47:20Z,2025-09-10T10:47:20Z,Add detoxie webpage and web3 project,1,false
+portfolio,e6e121edb3f48fbadccad23830e27cb95a8982a0,Anamika1608,Anamika Aggarwal,2025-09-10T13:29:59Z,2025-09-10T13:29:59Z,Add reccomendation section,1,false
+portfolio,bfec55c48888115ca288aa7a1a798ccaa74f9a04,Anamika1608,Anamika Aggarwal,2025-09-11T05:55:11Z,2025-09-11T05:55:11Z,add blog section,1,false
+portfolio,0f0c37ef2e1fdced287adf4a6750447f12a5c34a,Anamika1608,Anamika Aggarwal,2025-09-11T11:59:34Z,2025-09-11T12:03:43Z,Add contact me section,1,false
+portfolio,b80e66271f25f542c990f4d1dcdf8b7278041509,Anamika1608,Anamika Aggarwal,2025-09-11T13:36:15Z,2025-09-11T13:36:15Z,Make the spacing look consistent and refactor cards,1,false
+portfolio,6fb735da079b6e96335950d92024a28defb07aaa,Anamika1608,Anamika Aggarwal,2025-09-11T14:56:21Z,2025-09-11T14:56:21Z,Edit hero section and blog content,1,false
+portfolio,de99ca4e0bc05b045aa9f698b67f4eab037d4111,Anamika1608,Anamika Aggarwal,2025-09-11T15:51:33Z,2025-09-11T15:51:33Z,Edit hero section and work experience,1,false
+portfolio,dac16cee93ed0ba342ab09fbcc533da3c5ab4a50,Anamika1608,Anamika Aggarwal,2025-09-11T16:35:41Z,2025-09-11T16:35:41Z,Make the project section responsive,1,false
+portfolio,e048ea0a98136796ffe3ccd497e7697dbd6216ee,Anamika1608,Anamika Aggarwal,2025-09-11T16:47:30Z,2025-09-11T16:49:45Z,update favicon,1,false
+portfolio,967457897d69bff8fdbc49c5afa76cbdd87773e8,Anamika1608,Anamika Aggarwal,2025-09-11T17:04:48Z,2025-09-11T17:04:48Z,Remove dark theme,1,false
+portfolio,4cc76ecb53aa15a0b25ff9a1fb10e8d74796d16a,Anamika1608,Anamika Aggarwal,2025-09-11T17:13:55Z,2025-09-11T17:13:55Z,fix hackathon line in hero section,1,false
+portfolio,4d62e3c68a0f93f01f2a696d05fdeb815a0e4d18,Anamika1608,Anamika Aggarwal,2025-09-16T06:54:32Z,2025-09-16T06:54:32Z,change mail address,1,false
+portfolio,393449a5f6978d375139c54ec02a49ce70cce815,Anamika1608,Anamika Aggarwal,2025-10-02T09:46:56Z,2025-10-02T09:46:56Z,add resume endpoint,1,false
+portfolio,11c479c84a63fcbbb48f1a9052516d533d76352c,Anamika1608,Anamika Aggarwal,2026-01-02T15:52:35Z,2026-01-02T15:52:35Z,"Merge pull request #1 from Anamika1608/vercel/react-server-components-cve-vu-2my32q",2,true
+portfolio,9d7656a7781976e75a3adf03555a60e1751dc4b3,Anamika1608,Anamika Aggarwal,2026-01-02T15:54:41Z,2026-01-02T15:54:41Z,"Merge pull request #2 from Anamika1608/vercel/vercel-web-analytics-to-nextjs-bm5v6f",2,true
+portfolio,cf6b4c956bca22a8562f6d5126284d544708a83d,Anamika1608,Anamika Aggarwal,2026-01-02T16:28:53Z,2026-01-02T16:28:53Z,Downgrade 'next' dependency version,1,false
+portfolio,2161e2071623c867a1a95a826d2c272fc7a8caa9,Anamika1608,Anamika AggarwaL,2026-02-02T05:50:42Z,2026-02-02T05:50:42Z,add scaling-playbook route,1,false
+portfolio,5508bbaee7274b0707eae31132944f0db1bd21e9,Anamika1608,Anamika AggarwaL,2026-02-04T14:34:35Z,2026-02-04T14:34:35Z,replace crafitng word with building,1,false
+portfolio,5a87b011a12d41d387e8b3b53334c0c33a203a12,Anamika1608,Anamika Aggarwal,2026-03-12T18:55:49Z,2026-03-12T18:55:49Z,Update resume redirect destination URL,1,false
+ptf,22d411939fe86ff5125b36d0ecb8fcd836d4e328,Anamika1608,Anamika AggarwaL,2026-03-10T17:49:14Z,2026-03-10T17:49:14Z,Add automated monthly release workflows,1,false
+ptf,83600af94d2f7b6238ccb0aec1f40fa76983a77b,Anamika1608,Anamika Aggarwal,2026-03-10T17:49:42Z,2026-03-10T17:49:42Z,"Merge pull request #1 from Anamika1608/automated-monthly-releases",2,true
+ptf,5a0cf24682ffeccaddadf009d24ce424667c5f90,Anamika1608,Anamika AggarwaL,2026-03-10T17:51:20Z,2026-03-10T17:51:20Z,"Fix: add git describe fallback, remove reviewers for fork testing",1,false
+ptf,bde3a1c921dd57203c360215582574ae01704669,Anamika1608,Anamika Aggarwal,2026-03-10T17:51:32Z,2026-03-10T17:51:32Z,"Merge pull request #3 from Anamika1608/automated-monthly-releases",2,true
+ptf,be600712d381958e9179d861c9b77798980886d0,Anamika1608,Anamika Aggarwal,2026-03-11T18:09:24Z,2026-03-11T18:09:24Z,"add skip check when no new commits (#5)",1,false
+svelte,92d84e9f582eb446f3e0a8f3ed20ffb5e3e4b198,Anamika1608,Anamika Aggarwal,2025-10-24T08:08:26Z,2025-10-24T08:08:26Z,first commit,0,false
