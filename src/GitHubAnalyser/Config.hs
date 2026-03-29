@@ -21,6 +21,7 @@ data Command
     | FetchRepos
     | FetchEvents
     | FetchCommits
+    | AnalyzeParquet
     deriving (Eq, Show)
 
 data AppConfig = AppConfig
@@ -37,6 +38,7 @@ parseCommand ["fetch-all"] = Right FetchAll
 parseCommand ["fetch-repos"] = Right FetchRepos
 parseCommand ["fetch-events"] = Right FetchEvents
 parseCommand ["fetch-commits"] = Right FetchCommits
+parseCommand ["analyze-parquet"] = Right AnalyzeParquet
 parseCommand _ = Left "Unknown or missing command."
 
 loadConfig :: IO AppConfig

@@ -7,6 +7,7 @@ executable github-analyser
     main-is:          Main.hs
     hs-source-dirs:   app, src
     other-modules:
+        GitHubAnalyser.Analysis,
         GitHubAnalyser.Config,
         GitHubAnalyser.GitHub,
         GitHubAnalyser.Paths,
@@ -17,8 +18,10 @@ executable github-analyser
         aeson >= 2.0 && < 3,
         base >= 4.14 && < 5,
         bytestring >= 0.11 && < 0.13,
+        dataframe,
         directory >= 1.3 && < 2,
         filepath >= 1.4 && < 2,
         http-conduit >= 2.3 && < 3,
+        containers >= 0.6 && < 1,
         text >= 2.0 && < 3,
         time >= 1.12 && < 2

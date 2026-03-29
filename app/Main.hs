@@ -5,6 +5,7 @@ module Main where
 
 import qualified Data.Text as T
 import Data.Time.Format.ISO8601 (iso8601Show)
+import GitHubAnalyser.Analysis
 import GitHubAnalyser.Config
 import GitHubAnalyser.GitHub
 import GitHubAnalyser.Paths
@@ -21,6 +22,7 @@ usage =
         , "  fetch-repos    Fetch repository metadata only"
         , "  fetch-events   Fetch public events only"
         , "  fetch-commits  Fetch commits for top active repositories"
+        , "  analyze-parquet  Read generated Parquet files with dataframe"
         ]
 
 printConfigSummary :: AppConfig -> IO ()
@@ -87,3 +89,4 @@ main = do
         FetchCommits -> do
             _ <- runFetchCommits cfg
             pure ()
+        AnalyzeParquet -> runParquetAnalysis
